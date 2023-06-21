@@ -19,13 +19,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'installation',
-        message: 'Please provide installation instructions for this project.',
-    },
-    {
-        type: 'input',
-        name: 'usage',
-        message: 'Please provide the languages or technologies associated with this project.',
+        name: 'link',
+        message: 'Please provide a URL link to the deployed project',
     },
     {
         type: 'checkbox',
@@ -35,13 +30,44 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'require',
+        message: 'Please list any dependancies required for this project',
+    },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'Please provide installation instructions for this project.',
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'Please provide the languages or technologies associated with this project.',
+    },
+    {
+        type: 'input',
+        name: 'creator',
+        message: 'Please provide your GitHub username.'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide a valid email address',
+    },
+    {
+        type: 'input',
         name: 'contributing',
         message: 'Please list any contributors to this project. (Use GitHub usernames)',
+        default: '',
     },
     {
         type: 'input',
         name: 'tests',
-        messagge: 'Please provide a walk-through of required tests, if applicable.',
+        message: 'Please provide a walk-through of required tests, if applicable.',
+    },
+    {
+        type: 'input',
+        name: 'screenshot',
+        message: 'Please provide the relative path to the screenshot image of this project',
     },
 ];
 
