@@ -1,7 +1,7 @@
 # README-Generator 
 ![Github license](https://img.shields.io/badge/license--blue.svg)
 ## Description
-To help developers to easily generate professional README documents
+This project was made to generate README documents
 ## Deployed Application URL
 N/A
 ## Screenshot
@@ -14,11 +14,11 @@ N/A
 * [Testing](#testing)
 * [Questions](#questions)
 ## Features
-It can be run from your terminal!
+N/A
 ## Languages & Dependencies
 inquirer, fs, util
 ## How to Use This Application:
-JavaScript, Node.js, inquirer, fs
+JavaScript, Node.js, inquirer, JSON
 ## Contributors
 geoffwithers
 ## Testing
